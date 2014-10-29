@@ -1,0 +1,45 @@
+
+/* Class = "IBUILabel"; text = "Email:"; ObjectID = "0a5-bQ-nYH"; */
+"0a5-bQ-nYH.text" = "Email:";
+
+/* Class = "IBUILabel"; text = "Residence:"; ObjectID = "2Fz-G0-Cd3"; */
+"2Fz-G0-Cd3.text" = "Residence:";
+
+/* Class = "IBUILabel"; text = "Email"; ObjectID = "7pE-ni-Kbm"; */
+"7pE-ni-Kbm.text" = "Email";
+
+/* Class = "IBUILabel"; text = "Residence"; ObjectID = "RvA-6A-nZv"; */
+"RvA-6A-nZv.text" = "Residence";
+
+/* Class = "IBUILabel"; text = "Major:"; ObjectID = "Ztj-Tu-u4H"; */
+"Ztj-Tu-u4H.text" = "Major:";
+
+/* Class = "IBUILabel"; text = "Major:"; ObjectID = "dM2-yr-nmK"; */
+"dM2-yr-nmK.text" = "Major:";
+
+/* Class = "IBUILabel"; text = "Company:"; ObjectID = "etg-js-pfG"; */
+"etg-js-pfG.text" = "Company:";
+
+/* Class = "IBUILabel"; text = "Email:"; ObjectID = "euK-Aa-fIT"; */
+"euK-Aa-fIT.text" = "Email:";
+
+/* Class = "IBUILabel"; text = "Company"; ObjectID = "gac-PV-ajr"; */
+"gac-PV-ajr.text" = "Company";
+
+/* Class = "IBUIButton"; normalTitle = "Done"; ObjectID = "lrZ-h1-onR"; */
+"lrZ-h1-onR.normalTitle" = "Done";
+
+/* Class = "IBUILabel"; text = "Major"; ObjectID = "okT-Ql-7wC"; */
+"okT-Ql-7wC.text" = "Major";
+
+/* Class = "IBUILabel"; text = "Residence:"; ObjectID = "pZp-vL-GFb"; */
+"pZp-vL-GFb.text" = "Residence:";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "q3V-hO-iQ8"; */
+"q3V-hO-iQ8.text" = "Name";
+
+/* Class = "IBUILabel"; text = "Company:"; ObjectID = "rSt-zM-kvH"; */
+"rSt-zM-kvH.text" = "Company:";
+
+/* Class = "IBUILabel"; text = "Bio"; ObjectID = "w7Q-SL-vjJ"; */
+"w7Q-SL-vjJ.text" = "Bio";

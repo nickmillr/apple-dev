@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BC0C8EB19C11E1900B7E26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC0C8EA19C11E1900B7E26B /* Foundation.framework */; };
+		6BC0C8ED19C11E1900B7E26B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC0C8EC19C11E1900B7E26B /* CoreGraphics.framework */; };
+		6BC0C8EF19C11E1900B7E26B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC0C8EE19C11E1900B7E26B /* UIKit.framework */; };
+		6BC0C8F519C11E1900B7E26B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BC0C8F319C11E1900B7E26B /* InfoPlist.strings */; };
+		6BC0C8F719C11E1900B7E26B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC0C8F619C11E1900B7E26B /* main.m */; };
+		6BC0C8FB19C11E1900B7E26B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC0C8FA19C11E1900B7E26B /* AppDelegate.m */; };
+		6BC0C8FE19C11E1900B7E26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC0C8FC19C11E1900B7E26B /* Main.storyboard */; };
+		6BC0C90119C11E1900B7E26B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC0C90019C11E1900B7E26B /* ViewController.m */; };
+		6BC0C90319C11E1900B7E26B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC0C90219C11E1900B7E26B /* Images.xcassets */; };
+		6BC0C90A19C11E1900B7E26B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC0C90919C11E1900B7E26B /* XCTest.framework */; };
+		6BC0C90B19C11E1900B7E26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC0C8EA19C11E1900B7E26B /* Foundation.framework */; };
+		6BC0C90C19C11E1900B7E26B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC0C8EE19C11E1900B7E26B /* UIKit.framework */; };
+		6BC0C91419C11E1900B7E26B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BC0C91219C11E1900B7E26B /* InfoPlist.strings */; };
+		6BC0C91619C11E1900B7E26B /* MortgageCalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC0C91519C11E1900B7E26B /* MortgageCalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BC0C90D19C11E1900B7E26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BC0C8DF19C11E1900B7E26B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BC0C8E619C11E1900B7E26B;
+			remoteInfo = MortgageCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BC0C8E719C11E1900B7E26B /* MortgageCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MortgageCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC0C8EA19C11E1900B7E26B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BC0C8EC19C11E1900B7E26B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BC0C8EE19C11E1900B7E26B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BC0C8F219C11E1900B7E26B /* MortgageCal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MortgageCal-Info.plist"; sourceTree = "<group>"; };
+		6BC0C8F419C11E1900B7E26B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BC0C8F619C11E1900B7E26B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BC0C8F819C11E1900B7E26B /* MortgageCal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MortgageCal-Prefix.pch"; sourceTree = "<group>"; };
+		6BC0C8F919C11E1900B7E26B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BC0C8FA19C11E1900B7E26B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BC0C8FD19C11E1900B7E26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BC0C8FF19C11E1900B7E26B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BC0C90019C11E1900B7E26B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BC0C90219C11E1900B7E26B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BC0C90819C11E1900B7E26B /* MortgageCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MortgageCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC0C90919C11E1900B7E26B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6BC0C91119C11E1900B7E26B /* MortgageCalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MortgageCalTests-Info.plist"; sourceTree = "<group>"; };
+		6BC0C91319C11E1900B7E26B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6BC0C91519C11E1900B7E26B /* MortgageCalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MortgageCalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BC0C8E419C11E1900B7E26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC0C8ED19C11E1900B7E26B /* CoreGraphics.framework in Frameworks */,
+				6BC0C8EF19C11E1900B7E26B /* UIKit.framework in Frameworks */,
+				6BC0C8EB19C11E1900B7E26B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC0C90519C11E1900B7E26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC0C90A19C11E1900B7E26B /* XCTest.framework in Frameworks */,
+				6BC0C90C19C11E1900B7E26B /* UIKit.framework in Frameworks */,
+				6BC0C90B19C11E1900B7E26B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BC0C8DE19C11E1900B7E26B = {
+			isa = PBXGroup;
+			children = (
+				6BC0C8F019C11E1900B7E26B /* MortgageCal */,
+				6BC0C90F19C11E1900B7E26B /* MortgageCalTests */,
+				6BC0C8E919C11E1900B7E26B /* Frameworks */,
+				6BC0C8E819C11E1900B7E26B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BC0C8E819C11E1900B7E26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0C8E719C11E1900B7E26B /* MortgageCal.app */,
+				6BC0C90819C11E1900B7E26B /* MortgageCalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BC0C8E919C11E1900B7E26B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0C8EA19C11E1900B7E26B /* Foundation.framework */,
+				6BC0C8EC19C11E1900B7E26B /* CoreGraphics.framework */,
+				6BC0C8EE19C11E1900B7E26B /* UIKit.framework */,
+				6BC0C90919C11E1900B7E26B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BC0C8F019C11E1900B7E26B /* MortgageCal */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0C8F919C11E1900B7E26B /* AppDelegate.h */,
+				6BC0C8FA19C11E1900B7E26B /* AppDelegate.m */,
+				6BC0C8FC19C11E1900B7E26B /* Main.storyboard */,
+				6BC0C8FF19C11E1900B7E26B /* ViewController.h */,
+				6BC0C90019C11E1900B7E26B /* ViewController.m */,
+				6BC0C90219C11E1900B7E26B /* Images.xcassets */,
+				6BC0C8F119C11E1900B7E26B /* Supporting Files */,
+			);
+			path = MortgageCal;
+			sourceTree = "<group>";
+		};
+		6BC0C8F119C11E1900B7E26B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0C8F219C11E1900B7E26B /* MortgageCal-Info.plist */,
+				6BC0C8F319C11E1900B7E26B /* InfoPlist.strings */,
+				6BC0C8F619C11E1900B7E26B /* main.m */,
+				6BC0C8F819C11E1900B7E26B /* MortgageCal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BC0C90F19C11E1900B7E26B /* MortgageCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0C91519C11E1900B7E26B /* MortgageCalTests.m */,
+				6BC0C91019C11E1900B7E26B /* Supporting Files */,
+			);
+			path = MortgageCalTests;
+			sourceTree = "<group>";
+		};
+		6BC0C91019C11E1900B7E26B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BC0C91119C11E1900B7E26B /* MortgageCalTests-Info.plist */,
+				6BC0C91219C11E1900B7E26B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BC0C8E619C11E1900B7E26B /* MortgageCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC0C91919C11E1900B7E26B /* Build configuration list for PBXNativeTarget "MortgageCal" */;
+			buildPhases = (
+				6BC0C8E319C11E1900B7E26B /* Sources */,
+				6BC0C8E419C11E1900B7E26B /* Frameworks */,
+				6BC0C8E519C11E1900B7E26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MortgageCal;
+			productName = MortgageCal;
+			productReference = 6BC0C8E719C11E1900B7E26B /* MortgageCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BC0C90719C11E1900B7E26B /* MortgageCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BC0C91C19C11E1900B7E26B /* Build configuration list for PBXNativeTarget "MortgageCalTests" */;
+			buildPhases = (
+				6BC0C90419C11E1900B7E26B /* Sources */,
+				6BC0C90519C11E1900B7E26B /* Frameworks */,
+				6BC0C90619C11E1900B7E26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BC0C90E19C11E1900B7E26B /* PBXTargetDependency */,
+			);
+			name = MortgageCalTests;
+			productName = MortgageCalTests;
+			productReference = 6BC0C90819C11E1900B7E26B /* MortgageCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BC0C8DF19C11E1900B7E26B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jeremy Wang";
+				TargetAttributes = {
+					6BC0C90719C11E1900B7E26B = {
+						TestTargetID = 6BC0C8E619C11E1900B7E26B;
+					};
+				};
+			};
+			buildConfigurationList = 6BC0C8E219C11E1900B7E26B /* Build configuration list for PBXProject "MortgageCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BC0C8DE19C11E1900B7E26B;
+			productRefGroup = 6BC0C8E819C11E1900B7E26B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BC0C8E619C11E1900B7E26B /* MortgageCal */,
+				6BC0C90719C11E1900B7E26B /* MortgageCalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BC0C8E519C11E1900B7E26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC0C90319C11E1900B7E26B /* Images.xcassets in Resources */,
+				6BC0C8F519C11E1900B7E26B /* InfoPlist.strings in Resources */,
+				6BC0C8FE19C11E1900B7E26B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC0C90619C11E1900B7E26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC0C91419C11E1900B7E26B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BC0C8E319C11E1900B7E26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC0C90119C11E1900B7E26B /* ViewController.m in Sources */,
+				6BC0C8FB19C11E1900B7E26B /* AppDelegate.m in Sources */,
+				6BC0C8F719C11E1900B7E26B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC0C90419C11E1900B7E26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC0C91619C11E1900B7E26B /* MortgageCalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BC0C90E19C11E1900B7E26B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BC0C8E619C11E1900B7E26B /* MortgageCal */;
+			targetProxy = 6BC0C90D19C11E1900B7E26B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BC0C8F319C11E1900B7E26B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC0C8F419C11E1900B7E26B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6BC0C8FC19C11E1900B7E26B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC0C8FD19C11E1900B7E26B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BC0C91219C11E1900B7E26B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BC0C91319C11E1900B7E26B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BC0C91719C11E1900B7E26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BC0C91819C11E1900B7E26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BC0C91A19C11E1900B7E26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MortgageCal/MortgageCal-Prefix.pch";
+				INFOPLIST_FILE = "MortgageCal/MortgageCal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BC0C91B19C11E1900B7E26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MortgageCal/MortgageCal-Prefix.pch";
+				INFOPLIST_FILE = "MortgageCal/MortgageCal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6BC0C91D19C11E1900B7E26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MortgageCal.app/MortgageCal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MortgageCal/MortgageCal-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MortgageCalTests/MortgageCalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6BC0C91E19C11E1900B7E26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MortgageCal.app/MortgageCal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MortgageCal/MortgageCal-Prefix.pch";
+				INFOPLIST_FILE = "MortgageCalTests/MortgageCalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BC0C8E219C11E1900B7E26B /* Build configuration list for PBXProject "MortgageCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC0C91719C11E1900B7E26B /* Debug */,
+				6BC0C91819C11E1900B7E26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BC0C91919C11E1900B7E26B /* Build configuration list for PBXNativeTarget "MortgageCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC0C91A19C11E1900B7E26B /* Debug */,
+				6BC0C91B19C11E1900B7E26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BC0C91C19C11E1900B7E26B /* Build configuration list for PBXNativeTarget "MortgageCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BC0C91D19C11E1900B7E26B /* Debug */,
+				6BC0C91E19C11E1900B7E26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BC0C8DF19C11E1900B7E26B /* Project object */;
+}
