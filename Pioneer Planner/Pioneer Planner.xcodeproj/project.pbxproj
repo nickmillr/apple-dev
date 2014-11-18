@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9102F151A1433D700E67EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F141A1433D700E67EA1 /* main.m */; };
+		A9102F181A1433D700E67EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F171A1433D700E67EA1 /* AppDelegate.m */; };
+		A9102F211A1433D700E67EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9102F1F1A1433D700E67EA1 /* Main.storyboard */; };
+		A9102F231A1433D700E67EA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9102F221A1433D700E67EA1 /* Images.xcassets */; };
+		A9102F261A1433D700E67EA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9102F241A1433D700E67EA1 /* LaunchScreen.xib */; };
+		A9102F321A1433D700E67EA1 /* Pioneer_PlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F311A1433D700E67EA1 /* Pioneer_PlannerTests.m */; };
+		A9102F3D1A143DFA00E67EA1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F3C1A143DFA00E67EA1 /* MapViewController.m */; };
+		A9102F401A143E1800E67EA1 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F3F1A143E1800E67EA1 /* ScheduleViewController.m */; };
+		A9102F431A143E2D00E67EA1 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F421A143E2D00E67EA1 /* RegisterViewController.m */; };
+		A9102F461A143E4200E67EA1 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F451A143E4200E67EA1 /* ChatViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9102F2C1A1433D700E67EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9102F071A1433D700E67EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9102F0E1A1433D700E67EA1;
+			remoteInfo = "Pioneer Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9102F0F1A1433D700E67EA1 /* Pioneer Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pioneer Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9102F131A1433D700E67EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9102F141A1433D700E67EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9102F161A1433D700E67EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9102F171A1433D700E67EA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9102F201A1433D700E67EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9102F221A1433D700E67EA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9102F251A1433D700E67EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9102F2B1A1433D700E67EA1 /* Pioneer PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pioneer PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9102F301A1433D700E67EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9102F311A1433D700E67EA1 /* Pioneer_PlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pioneer_PlannerTests.m; sourceTree = "<group>"; };
+		A9102F3B1A143DFA00E67EA1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		A9102F3C1A143DFA00E67EA1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		A9102F3E1A143E1800E67EA1 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		A9102F3F1A143E1800E67EA1 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		A9102F411A143E2D00E67EA1 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		A9102F421A143E2D00E67EA1 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		A9102F441A143E4200E67EA1 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		A9102F451A143E4200E67EA1 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9102F0C1A1433D700E67EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9102F281A1433D700E67EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9102F061A1433D700E67EA1 = {
+			isa = PBXGroup;
+			children = (
+				A9102F111A1433D700E67EA1 /* Pioneer Planner */,
+				A9102F2E1A1433D700E67EA1 /* Pioneer PlannerTests */,
+				A9102F101A1433D700E67EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9102F101A1433D700E67EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9102F0F1A1433D700E67EA1 /* Pioneer Planner.app */,
+				A9102F2B1A1433D700E67EA1 /* Pioneer PlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9102F111A1433D700E67EA1 /* Pioneer Planner */ = {
+			isa = PBXGroup;
+			children = (
+				A9102F161A1433D700E67EA1 /* AppDelegate.h */,
+				A9102F171A1433D700E67EA1 /* AppDelegate.m */,
+				A9102F1F1A1433D700E67EA1 /* Main.storyboard */,
+				A9102F221A1433D700E67EA1 /* Images.xcassets */,
+				A9102F241A1433D700E67EA1 /* LaunchScreen.xib */,
+				A9102F121A1433D700E67EA1 /* Supporting Files */,
+				A9102F3B1A143DFA00E67EA1 /* MapViewController.h */,
+				A9102F3C1A143DFA00E67EA1 /* MapViewController.m */,
+				A9102F3E1A143E1800E67EA1 /* ScheduleViewController.h */,
+				A9102F3F1A143E1800E67EA1 /* ScheduleViewController.m */,
+				A9102F411A143E2D00E67EA1 /* RegisterViewController.h */,
+				A9102F421A143E2D00E67EA1 /* RegisterViewController.m */,
+				A9102F441A143E4200E67EA1 /* ChatViewController.h */,
+				A9102F451A143E4200E67EA1 /* ChatViewController.m */,
+			);
+			path = "Pioneer Planner";
+			sourceTree = "<group>";
+		};
+		A9102F121A1433D700E67EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9102F131A1433D700E67EA1 /* Info.plist */,
+				A9102F141A1433D700E67EA1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9102F2E1A1433D700E67EA1 /* Pioneer PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9102F311A1433D700E67EA1 /* Pioneer_PlannerTests.m */,
+				A9102F2F1A1433D700E67EA1 /* Supporting Files */,
+			);
+			path = "Pioneer PlannerTests";
+			sourceTree = "<group>";
+		};
+		A9102F2F1A1433D700E67EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9102F301A1433D700E67EA1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9102F0E1A1433D700E67EA1 /* Pioneer Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9102F351A1433D700E67EA1 /* Build configuration list for PBXNativeTarget "Pioneer Planner" */;
+			buildPhases = (
+				A9102F0B1A1433D700E67EA1 /* Sources */,
+				A9102F0C1A1433D700E67EA1 /* Frameworks */,
+				A9102F0D1A1433D700E67EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pioneer Planner";
+			productName = "Pioneer Planner";
+			productReference = A9102F0F1A1433D700E67EA1 /* Pioneer Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9102F2A1A1433D700E67EA1 /* Pioneer PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9102F381A1433D700E67EA1 /* Build configuration list for PBXNativeTarget "Pioneer PlannerTests" */;
+			buildPhases = (
+				A9102F271A1433D700E67EA1 /* Sources */,
+				A9102F281A1433D700E67EA1 /* Frameworks */,
+				A9102F291A1433D700E67EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9102F2D1A1433D700E67EA1 /* PBXTargetDependency */,
+			);
+			name = "Pioneer PlannerTests";
+			productName = "Pioneer PlannerTests";
+			productReference = A9102F2B1A1433D700E67EA1 /* Pioneer PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9102F071A1433D700E67EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Nicholas Miller";
+				TargetAttributes = {
+					A9102F0E1A1433D700E67EA1 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A9102F2A1A1433D700E67EA1 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A9102F0E1A1433D700E67EA1;
+					};
+				};
+			};
+			buildConfigurationList = A9102F0A1A1433D700E67EA1 /* Build configuration list for PBXProject "Pioneer Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9102F061A1433D700E67EA1;
+			productRefGroup = A9102F101A1433D700E67EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9102F0E1A1433D700E67EA1 /* Pioneer Planner */,
+				A9102F2A1A1433D700E67EA1 /* Pioneer PlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9102F0D1A1433D700E67EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9102F211A1433D700E67EA1 /* Main.storyboard in Resources */,
+				A9102F261A1433D700E67EA1 /* LaunchScreen.xib in Resources */,
+				A9102F231A1433D700E67EA1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9102F291A1433D700E67EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9102F0B1A1433D700E67EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9102F401A143E1800E67EA1 /* ScheduleViewController.m in Sources */,
+				A9102F181A1433D700E67EA1 /* AppDelegate.m in Sources */,
+				A9102F3D1A143DFA00E67EA1 /* MapViewController.m in Sources */,
+				A9102F431A143E2D00E67EA1 /* RegisterViewController.m in Sources */,
+				A9102F461A143E4200E67EA1 /* ChatViewController.m in Sources */,
+				A9102F151A1433D700E67EA1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9102F271A1433D700E67EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9102F321A1433D700E67EA1 /* Pioneer_PlannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9102F2D1A1433D700E67EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9102F0E1A1433D700E67EA1 /* Pioneer Planner */;
+			targetProxy = A9102F2C1A1433D700E67EA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9102F1F1A1433D700E67EA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9102F201A1433D700E67EA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9102F241A1433D700E67EA1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9102F251A1433D700E67EA1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9102F331A1433D700E67EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9102F341A1433D700E67EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9102F361A1433D700E67EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pioneer Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9102F371A1433D700E67EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pioneer Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9102F391A1433D700E67EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pioneer PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pioneer Planner.app/Pioneer Planner";
+			};
+			name = Debug;
+		};
+		A9102F3A1A1433D700E67EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pioneer PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pioneer Planner.app/Pioneer Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9102F0A1A1433D700E67EA1 /* Build configuration list for PBXProject "Pioneer Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9102F331A1433D700E67EA1 /* Debug */,
+				A9102F341A1433D700E67EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9102F351A1433D700E67EA1 /* Build configuration list for PBXNativeTarget "Pioneer Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9102F361A1433D700E67EA1 /* Debug */,
+				A9102F371A1433D700E67EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9102F381A1433D700E67EA1 /* Build configuration list for PBXNativeTarget "Pioneer PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9102F391A1433D700E67EA1 /* Debug */,
+				A9102F3A1A1433D700E67EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9102F071A1433D700E67EA1 /* Project object */;
+}
