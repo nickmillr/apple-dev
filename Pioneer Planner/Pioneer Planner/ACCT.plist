@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>30812 ACCT 201-01</key>
+	<string>Intro to Mngt Acct
+Recommended Prerequisite:
+MSAT 400+/ACTM 19+/MATH 80 w/C or better
+THMS 110  M/W/F  09:00AM - 09:50AM	3.0	Mead, David L.</string>
+	<key>30813 ACCT 201-02</key>
+	<string>Intro to Mngt Acct
+Recommended Prerequisite:
+MSAT 400+/ACTM 19+/MATH 80 w/C or better.
+THMS 110  M/W/F  10:00AM - 10:50AM	3.0	Mead, David L.</string>
+	<key>30814 ACCT 202-01</key>
+	<string>Intro. to Fin. Acct.
+THMS 209  T/TH  02:30PM - 03:45PM	3.0	Johnson, Grace F.</string>
+	<key>30817 ACCT 301-01</key>
+	<string>Interm. Acct. I
+THMS 103  M/W  02:00PM - 03:15PM	3.0	Johnson, Grace F.</string>
+	<key>30818 ACCT 302-01</key>
+	<string>Interm. Acct. II
+THMS 113  T/TH  08:00AM - 09:15AM	3.0	Mead, David L.</string>
+	<key>32360 ACCT 410-20</key>
+	<string>Auditing 
+THMS 110  T  05:30PM - 08:30PM	3.0	Jiles, Eric S.</string>
+	<key>31369 ACCT 420-01</key>
+	<string>Federal Income Tax
+THMS 110  M/F  02:00PM - 03:15PM	3.0	Mead, David L.</string>
+</dict>
+</plist>

@@ -14,14 +14,44 @@
 
 @implementation MapViewController
 
+@synthesize scrollView = scrollView;
+@synthesize mapView = mapView;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.mapView setImage:[UIImage imageNamed:@"mcmap"]];
+    UIImage *map = [UIImage imageNamed:@"mcmap.png"];
+    self.mapView = [[UIImageView alloc] initWithImage:map];
+    self.mapView.frame = (CGRect){.origin=CGPointMake(0.0f, 0.0f), .size=map.size};
+    [self.scrollView addSubview:self.mapView];
     
-    [self.scrollView setMaximumZoomScale:5.0f];
-    [self.scrollView setClipsToBounds:YES];
+    self.scrollView.contentSize = map.size;
     
+    UITapGestureRecognizer *doubleTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(scrollViewDoubleTapped:)];
+    doubleTapRecognizer.numberOfTapsRequired = 2;
+    doubleTapRecognizer.numberOfTouchesRequired = 1;
+    [self.scrollView addGestureRecognizer:doubleTapRecognizer];
+    
+    UITapGestureRecognizer *twoFingerTapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(scrollViewTwoFingerTapped:)];
+    twoFingerTapRecognizer.numberOfTapsRequired = 1;
+    twoFingerTapRecognizer.numberOfTouchesRequired = 2;
+    [self.scrollView addGestureRecognizer:twoFingerTapRecognizer];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    CGRect scrollViewFrame = self.scrollView.frame;
+    CGFloat scaleWidth = scrollViewFrame.size.width / self.scrollView.contentSize.width;
+    CGFloat scaleHeight = scrollViewFrame.size.height / self.scrollView.contentSize.height;
+    CGFloat minScale = MIN(scaleWidth, scaleHeight);
+    self.scrollView.minimumZoomScale = minScale;
+    
+    self.scrollView.maximumZoomScale = 3.0f;
+    self.scrollView.zoomScale = minScale;
+    
+    //[self centerScrollViewContents];
+    //http://www.raywenderlich.com/10518/how-to-use-uiscrollview-to-scroll-and-zoom-content
 }
 
 - (void)didReceiveMemoryWarning {

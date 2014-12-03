@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iOS App Dev Essential Training</key>
+	<string>Jeremy Wang</string>
+	<key>iOS 7 SDK New Features</key>
+	<string>Bob Van Camp</string>
+	<key>iOS SDK and SQLite: Building Data-Driven Apps</key>
+	<string>John Tyan</string>
+	<key>Objective-C Essential Training</key>
+	<string>Richard Martin</string>
+	<key>iOS 4 Web Applications with HTML5 and CSS3</key>
+	<string>Nan Zhao</string>
+	<key>Distributing iOS Applications Through the App Store</key>
+	<string>Devin Wysni</string>
+	<key>iOS 6 SDK New Features</key>
+	<string>Wen Tao Ma</string>
+	<key>iOS SDK: Building Apps with MapKit and Core Location</key>
+	<string>Hao Fu</string>
+	<key>Xcode 5 New Features</key>
+	<string>Cameron Johnson</string>
+	<key>Building Android and iOS Apps with Dreamweaver CS5</key>
+	<string>Emerald Demor</string>
+	<key>Building and Monetizing Game Apps for iOS</key>
+	<string>Nicholas Miller</string>
+	<key>iOS 6: iOS System Resources</key>
+	<string>Yiqi Shi</string>
+	<key>iOS 5 SDK New Features</key>
+	<string>Garrett Stephenson</string>
+	<key>Programming for Non-Programmers: iOS</key>
+	<string>Kurt Fire</string>
+	<key>Building a Note-Taking App for iOS</key>
+	<string>Nanfu Wen</string>
+	<key>iPhone SDK: Developing iPad Applications</key>
+	<string>Jeremy Wang</string>
+	<key>Developing for the Apple iCloud API with iOS</key>
+	<string>Bob Van Camp</string>
+</dict>
+</plist>

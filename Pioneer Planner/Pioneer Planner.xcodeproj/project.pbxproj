@@ -15,8 +15,19 @@
 		A9102F321A1433D700E67EA1 /* Pioneer_PlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F311A1433D700E67EA1 /* Pioneer_PlannerTests.m */; };
 		A9102F3D1A143DFA00E67EA1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F3C1A143DFA00E67EA1 /* MapViewController.m */; };
 		A9102F401A143E1800E67EA1 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F3F1A143E1800E67EA1 /* ScheduleViewController.m */; };
-		A9102F431A143E2D00E67EA1 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F421A143E2D00E67EA1 /* RegisterViewController.m */; };
 		A9102F461A143E4200E67EA1 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9102F451A143E4200E67EA1 /* ChatViewController.m */; };
+		A95EB5481A2EC06F00C8AC4C /* ACCT.plist in Resources */ = {isa = PBXBuildFile; fileRef = A95EB5471A2EC06F00C8AC4C /* ACCT.plist */; };
+		A95EB54B1A2EC9AD00C8AC4C /* RegisterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95EB54A1A2EC9AD00C8AC4C /* RegisterTableViewController.m */; };
+		A95EB54D1A2ECD1900C8AC4C /* ASTR.plist in Resources */ = {isa = PBXBuildFile; fileRef = A95EB54C1A2ECD1900C8AC4C /* ASTR.plist */; };
+		A95EB5511A2ED1B000C8AC4C /* ASN.plist in Resources */ = {isa = PBXBuildFile; fileRef = A95EB5501A2ED1B000C8AC4C /* ASN.plist */; };
+		A95EB5531A2ED32D00C8AC4C /* CHIN.plist in Resources */ = {isa = PBXBuildFile; fileRef = A95EB5521A2ED32D00C8AC4C /* CHIN.plist */; };
+		A95EB5551A2ED40E00C8AC4C /* DANC.plist in Resources */ = {isa = PBXBuildFile; fileRef = A95EB5541A2ED40E00C8AC4C /* DANC.plist */; };
+		A9E9E1A91A2EEA9E003482C7 /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E9E1A81A2EEA9E003482C7 /* ConnectionsViewController.m */; };
+		A9E9E1AC1A2EEC0B003482C7 /* ChatMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E9E1AB1A2EEC0B003482C7 /* ChatMessagesViewController.m */; };
+		A9E9E1AF1A2EEC23003482C7 /* FileShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E9E1AE1A2EEC23003482C7 /* FileShareViewController.m */; };
+		A9E9E1B21A2EEF23003482C7 /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E9E1B11A2EEF23003482C7 /* MCManager.m */; };
+		A9E9E1B41A2EFCB4003482C7 /* homework.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9E9E1B31A2EFCB4003482C7 /* homework.txt */; };
+		A9E9E1B61A2EFD52003482C7 /* pi.txt in Resources */ = {isa = PBXBuildFile; fileRef = A9E9E1B51A2EFD52003482C7 /* pi.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +56,25 @@
 		A9102F3C1A143DFA00E67EA1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		A9102F3E1A143E1800E67EA1 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
 		A9102F3F1A143E1800E67EA1 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
-		A9102F411A143E2D00E67EA1 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		A9102F421A143E2D00E67EA1 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		A9102F441A143E4200E67EA1 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		A9102F451A143E4200E67EA1 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		A95EB5471A2EC06F00C8AC4C /* ACCT.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ACCT.plist; sourceTree = "<group>"; };
+		A95EB5491A2EC9AD00C8AC4C /* RegisterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterTableViewController.h; sourceTree = "<group>"; };
+		A95EB54A1A2EC9AD00C8AC4C /* RegisterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterTableViewController.m; sourceTree = "<group>"; };
+		A95EB54C1A2ECD1900C8AC4C /* ASTR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ASTR.plist; sourceTree = "<group>"; };
+		A95EB5501A2ED1B000C8AC4C /* ASN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ASN.plist; sourceTree = "<group>"; };
+		A95EB5521A2ED32D00C8AC4C /* CHIN.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CHIN.plist; sourceTree = "<group>"; };
+		A95EB5541A2ED40E00C8AC4C /* DANC.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DANC.plist; sourceTree = "<group>"; };
+		A9E9E1A71A2EEA9E003482C7 /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
+		A9E9E1A81A2EEA9E003482C7 /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
+		A9E9E1AA1A2EEC0B003482C7 /* ChatMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessagesViewController.h; sourceTree = "<group>"; };
+		A9E9E1AB1A2EEC0B003482C7 /* ChatMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessagesViewController.m; sourceTree = "<group>"; };
+		A9E9E1AD1A2EEC23003482C7 /* FileShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileShareViewController.h; sourceTree = "<group>"; };
+		A9E9E1AE1A2EEC23003482C7 /* FileShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileShareViewController.m; sourceTree = "<group>"; };
+		A9E9E1B01A2EEF23003482C7 /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		A9E9E1B11A2EEF23003482C7 /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
+		A9E9E1B31A2EFCB4003482C7 /* homework.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = homework.txt; sourceTree = "<group>"; };
+		A9E9E1B51A2EFD52003482C7 /* pi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pi.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +116,8 @@
 		A9102F111A1433D700E67EA1 /* Pioneer Planner */ = {
 			isa = PBXGroup;
 			children = (
+				A9E9E1B01A2EEF23003482C7 /* MCManager.h */,
+				A9E9E1B11A2EEF23003482C7 /* MCManager.m */,
 				A9102F161A1433D700E67EA1 /* AppDelegate.h */,
 				A9102F171A1433D700E67EA1 /* AppDelegate.m */,
 				A9102F1F1A1433D700E67EA1 /* Main.storyboard */,
@@ -100,10 +128,18 @@
 				A9102F3C1A143DFA00E67EA1 /* MapViewController.m */,
 				A9102F3E1A143E1800E67EA1 /* ScheduleViewController.h */,
 				A9102F3F1A143E1800E67EA1 /* ScheduleViewController.m */,
-				A9102F411A143E2D00E67EA1 /* RegisterViewController.h */,
-				A9102F421A143E2D00E67EA1 /* RegisterViewController.m */,
 				A9102F441A143E4200E67EA1 /* ChatViewController.h */,
 				A9102F451A143E4200E67EA1 /* ChatViewController.m */,
+				A95EB5491A2EC9AD00C8AC4C /* RegisterTableViewController.h */,
+				A95EB54A1A2EC9AD00C8AC4C /* RegisterTableViewController.m */,
+				A9E9E1AA1A2EEC0B003482C7 /* ChatMessagesViewController.h */,
+				A9E9E1AB1A2EEC0B003482C7 /* ChatMessagesViewController.m */,
+				A9E9E1AD1A2EEC23003482C7 /* FileShareViewController.h */,
+				A9E9E1AE1A2EEC23003482C7 /* FileShareViewController.m */,
+				A9E9E1B31A2EFCB4003482C7 /* homework.txt */,
+				A9E9E1B51A2EFD52003482C7 /* pi.txt */,
+				A9E9E1A71A2EEA9E003482C7 /* ConnectionsViewController.h */,
+				A9E9E1A81A2EEA9E003482C7 /* ConnectionsViewController.m */,
 			);
 			path = "Pioneer Planner";
 			sourceTree = "<group>";
@@ -111,6 +147,11 @@
 		A9102F121A1433D700E67EA1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A95EB5471A2EC06F00C8AC4C /* ACCT.plist */,
+				A95EB5501A2ED1B000C8AC4C /* ASN.plist */,
+				A95EB54C1A2ECD1900C8AC4C /* ASTR.plist */,
+				A95EB5521A2ED32D00C8AC4C /* CHIN.plist */,
+				A95EB5541A2ED40E00C8AC4C /* DANC.plist */,
 				A9102F131A1433D700E67EA1 /* Info.plist */,
 				A9102F141A1433D700E67EA1 /* main.m */,
 			);
@@ -215,8 +256,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9102F211A1433D700E67EA1 /* Main.storyboard in Resources */,
+				A9E9E1B41A2EFCB4003482C7 /* homework.txt in Resources */,
 				A9102F261A1433D700E67EA1 /* LaunchScreen.xib in Resources */,
+				A95EB5551A2ED40E00C8AC4C /* DANC.plist in Resources */,
 				A9102F231A1433D700E67EA1 /* Images.xcassets in Resources */,
+				A9E9E1B61A2EFD52003482C7 /* pi.txt in Resources */,
+				A95EB5511A2ED1B000C8AC4C /* ASN.plist in Resources */,
+				A95EB54D1A2ECD1900C8AC4C /* ASTR.plist in Resources */,
+				A95EB5481A2EC06F00C8AC4C /* ACCT.plist in Resources */,
+				A95EB5531A2ED32D00C8AC4C /* CHIN.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,10 +283,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9102F401A143E1800E67EA1 /* ScheduleViewController.m in Sources */,
+				A9E9E1AF1A2EEC23003482C7 /* FileShareViewController.m in Sources */,
 				A9102F181A1433D700E67EA1 /* AppDelegate.m in Sources */,
+				A95EB54B1A2EC9AD00C8AC4C /* RegisterTableViewController.m in Sources */,
+				A9E9E1A91A2EEA9E003482C7 /* ConnectionsViewController.m in Sources */,
+				A9E9E1B21A2EEF23003482C7 /* MCManager.m in Sources */,
 				A9102F3D1A143DFA00E67EA1 /* MapViewController.m in Sources */,
-				A9102F431A143E2D00E67EA1 /* RegisterViewController.m in Sources */,
 				A9102F461A143E4200E67EA1 /* ChatViewController.m in Sources */,
+				A9E9E1AC1A2EEC0B003482C7 /* ChatMessagesViewController.m in Sources */,
 				A9102F151A1433D700E67EA1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +484,7 @@
 				A9102F371A1433D700E67EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9102F381A1433D700E67EA1 /* Build configuration list for PBXNativeTarget "Pioneer PlannerTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +493,7 @@
 				A9102F3A1A1433D700E67EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
